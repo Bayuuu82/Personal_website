@@ -1,0 +1,19 @@
+.fotoprofile {
+  width: 300px;
+}
+
+.teksprofile {
+  max-width: 500px;
+  margin: 15px;
+  text-align: left;
+  border-left: 2px groove #e8e8ef;
+  padding-left: 5px;
+}
+@media only screen and (max-width: 500px) {
+  .fotoprofile {
+    width: 225px;
+  }
+  .profile {
+    flex-direction: column;
+  }
+}
