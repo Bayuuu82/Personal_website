@@ -2,7 +2,7 @@
     background-color: #1a1a1a;
     padding-top: 20px;
     width: 100%;
-    position: sticky;
+    position: fixed;
 }
 ul {
     list-style-type: none;

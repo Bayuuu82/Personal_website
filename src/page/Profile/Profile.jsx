@@ -5,7 +5,7 @@ import gambar from "../Assets/pict/foto2.png";
 function Profile() {
   return (
     <>
-      <div className="center profile">
+      <div className="center profile" id="Profile">
         <img className="fotoprofile" src={gambar} alt="" />
         <div class="teksprofile">
           <h1>Profile</h1>

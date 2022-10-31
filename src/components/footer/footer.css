@@ -1,0 +1,8 @@
+footer {
+    height: 200px;
+    background: #313131;
+    color: #e8e8e8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

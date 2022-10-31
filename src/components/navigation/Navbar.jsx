@@ -1,25 +1,36 @@
 import "./navbar.css";
-import { Link } from "react-router-dom";
+// import { Route, Routes } from "react-router-dom";
+// import Home from "../../page/Home/Home";
+// import About from "../../page/About/About";
+// import Profile from "../../page/Profile/Profile";
+// import Skill from "../../page/Skill/Skill";
+import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   return (
     <>
       <div className="bar">
         <ul>
-          <Link to="/">
+          <HashLink to="#">
             <li className="nav">Home</li>
-          </Link>
-          <Link to="/About">
+          </HashLink>
+          <HashLink to="#About">
             <li className="nav">About</li>
-          </Link>
-          <Link to="/Profile">
+          </HashLink>
+          <HashLink to="#Profile">
             <li className="nav">Profile</li>
-          </Link>
-          <Link to="/Skill">
+          </HashLink>
+          <HashLink to="#Skill">
             <li className="nav">Skill</li>
-          </Link>
+          </HashLink>
         </ul>
       </div>
+      {/* <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Profile" element={<Profile />} />
+        <Route path="/Skill" element={<Skill />} />
+      </Routes> */}
     </>
   );
 }

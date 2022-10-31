@@ -4,18 +4,17 @@ import About from "./page/About/About";
 import Profile from "./page/Profile/Profile";
 import Skill from "./page/Skill/Skill";
 import Navbar from "./components/navigation/Navbar";
-import { Routes, Route } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Profile" element={<Profile />} />
-        <Route path="/Skill" element={<Skill />} />
-      </Routes>
+      <Home />
+      <About />
+      <Profile />
+      <Skill />
+      <Footer />
     </>
   );
 }

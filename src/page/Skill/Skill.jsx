@@ -10,7 +10,7 @@ import mikrotik from "../Assets/pict/mikrotik.png";
 function Skill() {
   return (
     <>
-      <div className="center skillcontainer">
+      <div className="center skillcontainer" id="Skill">
         <h1>Skill</h1>
         <div className="skillcard">
           <div className="card">

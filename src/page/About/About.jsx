@@ -5,7 +5,7 @@ import "../Assets/Pages.css";
 function About() {
   return (
     <>
-      <div className="center about">
+      <div className="center about" id="About">
         <img className="gambar" src={gambar} alt="" />
         <div className="textabout">
           <br />
